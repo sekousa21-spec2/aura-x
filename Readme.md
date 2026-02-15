@@ -29,3 +29,26 @@ Aura-X est la plateforme IA la plus puissante au monde pour générer des conten
 ```bash
 node --version  # v18+
 npm --version
+git clone https://github.com/votre-username/aura-x.git
+cd aura-x
+npm install
+cp .env.example .env
+npm run dev
+aura-x/
+├── server/
+│   ├── _core/
+│   │   └── index.ts
+│   └── utils/
+│       └── fraud-detection.ts
+├── app/
+│   ├── (tabs)/
+│   ├── auth/
+│   └── admin/
+├── components/
+├── package.json
+├── .env.example
+└── README.md
+
+---
+
+**C'est clair maintenant?** 👍
